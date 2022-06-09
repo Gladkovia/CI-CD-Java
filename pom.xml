@@ -8,12 +8,7 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.antkorwin</groupId>
-	<artifactId>github-actions</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>github-actions</name>
-	<description>Demo project for Github Actions</description>
-
+	
 	<properties>
 		<java.version>11</java.version>
 	</properties>
