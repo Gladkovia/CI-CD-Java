@@ -8,7 +8,12 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	
+	<groupId>com.Gladkovia</groupId>
+	<artifactId>CI-CD-Java</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>Deno</name>
+	<description>Demo project for Github Actions</description>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
