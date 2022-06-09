@@ -84,7 +84,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.2</version>
+				<version>3.0.0.M5</version>
 				<configuration>
 					<reportFormat>plain</reportFormat>
 					<includes>
@@ -97,7 +97,7 @@
 			<plugin>
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.9.1.2184</version>
+				<version>3.9.0.2155</version>
 			</plugin>
 		</plugins>
 	</build>
