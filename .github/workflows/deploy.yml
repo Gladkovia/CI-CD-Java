@@ -41,7 +41,7 @@ jobs:
 
 #     Publish image to github package repository:
       - name: Publish image
-#        env:
-#          IMAGE_NAME: $GITHUB_REPOSITORY
+        env:
+          IMAGE_NAME: $GITHUB_REPOSITORY
         run: docker push "docker.pkg.github.com/$GITHUB_REPOSITORY/${{ steps.global_env.outputs.IMAGE_NAME }}"
 #
