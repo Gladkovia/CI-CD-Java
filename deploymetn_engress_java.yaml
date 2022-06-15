@@ -51,7 +51,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: kuber-java-cicd
-  namespace: roletest
+#  namespace: roletest
 spec:
   rules:
   - host: www.java.spb.omcc.ru
