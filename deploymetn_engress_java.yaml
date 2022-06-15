@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kuber-java-cicd
+  namespace: roletest
   labels:
     app: java
 spec:
@@ -36,6 +37,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: kuber-java-cicd
+  namespace: roletest
 spec:
   selector:
     app: java-cicd
@@ -49,6 +51,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: kuber-java-cicd
+  namespace: roletest
 spec:
   rules:
   - host: www.java.spb.omcc.ru
