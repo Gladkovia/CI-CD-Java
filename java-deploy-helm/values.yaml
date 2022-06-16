@@ -2,6 +2,6 @@
 
 
 container:
-  image: "${{ steps.global_env.outputs.DOCKERHUB_IMAGE_NAME }}:${GITHUB_SHA::8}"
+  image: ghcr.io/gladkovia/ci-cd-java/ci-cd-java:latest
 
 replicaCount: 3
