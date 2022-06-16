@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: kuber-java-prod
-        image: {{ steps.global_env.outputs.IMAGE_NAME }}:latest
+        image: {{ .Values.image }}
         ports:
         - containerPort: 8080
         readinessProbe:
