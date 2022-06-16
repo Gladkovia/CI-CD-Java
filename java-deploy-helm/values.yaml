@@ -2,6 +2,6 @@
 
 
 container:
-  image: ghcr.io/gladkovia/ci-cd-java/ci-cd-java:1fd72f7d}
+  image: ghcr.io/gladkovia/ci-cd-java/ci-cd-java:**}
 
 replicaCount: 3
