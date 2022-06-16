@@ -6,7 +6,7 @@ metadata:
   labels:
     app: java
 spec:
-  replicas: {{ .Velues.replica }}
+  replicas: {{ .Velues.replicaCount }}
   selector:
     matchLabels:
       app: java-cicd
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: kuber-java-prod
-        image: {{ .Velues.conteiner.image }}
+        image: {{ .Velues.container.image }}
         ports:
         - containerPort: 8080
         readinessProbe:

@@ -1,7 +1,7 @@
 # Default Values for me Helm Chart
 
 
-conteiner:
+container:
   image: ghcr.io/gladkovia/ci-cd-java/ci-cd-java:latest
 
-replica: 3
+replicaCount: 3
