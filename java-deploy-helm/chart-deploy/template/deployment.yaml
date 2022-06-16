@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kuber-java-cicd
+  namespace: roletest
+  labels:
+    app: java
+spec:
+  replicas: {{ .Velues.replica }}
+  selector:
+    matchLabels:
+      app: java-cicd
+  template:
+    metadata:
+      labels:
+        app: java-cicd
+    spec:
+      containers:
+      - name: kuber-java-prod
+        image: {{ .Velues.conteiner.image }}
+        ports:
+        - containerPort: 8080
+        readinessProbe:
+          httpGet:
+            path: /test
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        livenessProbe:
+          httpGet:
+            path: /test
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 5
+

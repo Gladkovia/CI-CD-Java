@@ -1,0 +1,6 @@
+apiVersion : v2
+name       : Java-HelmCart
+description: My Helm for Kubernetes
+type       : application
+version    : 0.1.0    # This is the Helm Cart version
+appVersion : "1.0.0"  # This is the version of appplication deployment
