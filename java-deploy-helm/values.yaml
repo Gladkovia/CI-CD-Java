@@ -2,6 +2,6 @@
 
 
 conteiner:
-  image:  ghcr.io/gladkovia/ci-cd-java/ci-cd-java:
+  image: ghcr.io/gladkovia/ci-cd-java/ci-cd-java:latest
 
 replica: 3
