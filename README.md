@@ -14,6 +14,8 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=gladkovia&show_icons=true&theme=radical)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gladkovia&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
+[![codecov](https://codecov.io/gh/Gladkovia/CI-CD-Java/branch/main/graph/badge.svg)](https://codecov.io/gh/Gladkovia/CI-CD-Java)
+
 # CI/CD
 <?xml version="1.0" encoding="windows-1251"?>
 <name/>Developer(java)+</name> <br/>
