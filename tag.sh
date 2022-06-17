@@ -9,6 +9,6 @@ if [[ $tag == $val ]]; then
   echo "yes"
 elif [[ $tag != $val ]]; then
   echo "No"
-  sed -i 's/$tag/$val/' /var/lib/jenkins/workspace/ci-cd-github-jenkins-k8s/java-deploy-helm/values.yaml
+  sed -i 's/$val/$tag/' /var/lib/jenkins/workspace/ci-cd-github-jenkins-k8s/java-deploy-helm/values.yaml
 fi
 
