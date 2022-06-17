@@ -1,3 +1,5 @@
+[![codecov](https://app.codecov.io/gh/Gladkovia/CI-CD-Java/branch/main/graph/badge.svg)](https://app.codecov.io/gh/Gladkovia/CI-CD-Java)
+
 # CI/CD
 <?xml version="1.0" encoding="windows-1251"?>
 <name/>Developer(java)+</name> <br/>
